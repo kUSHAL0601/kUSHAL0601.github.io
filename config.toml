@@ -1,0 +1,86 @@
+theme = "dream"
+title = "MajAK"
+
+googleAnalytics = "UA-198160109-1"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+  background = "#fff"
+  backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "#333"
+  backgroundImageDark = "/me/background.jpg"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+
+  images = ["me/background.jpg"]
+
+  author = "Kushal"
+  description = "Kushal"
+  avatar = "/me/me.png"
+  headerTitle = "The Tech Corner"
+  headerTitle1 = "The Personal Side"
+  motto = "This side comes with anything related to Tech, including the best, worst, interesting or the weirdest things I might have done in the field.<br>Use <i class=\"small dark sync icon dream-flip-toggle\"></i> to experience see my personal side!"
+  motto1 = "This side is more personal including anything from life aspirations, career or simply life updates!<br>Use <i class=\"small dark sync icon dream-flip-toggle\"></i> to see more about my tech side!"
+  # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "" # deprecated
+
+  # footerBottomText = ""
+
+  rss = false
+
+  utterancesRepo = "kUSHAL0601/kUSHAL0601.github.io"
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "majmundarkushal9@gmail.com"
+  twitter = "kUSHAL0601"
+  facebook = "kUSHAL0601"
+  instagram = "iammajak"
+  # mastodon = ""
+  linkedin = "majak06"
+  github = "kUSHAL0601"
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2021
+
+  favicon = "/favicon.ico"
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["clojure", "ocaml"]
+  highlightjsTheme = "tomorrow"
+  highlightjsThemeDark = "tomorrow-night"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
+    customJS = []
+
+  [params.experimental]
+    jsDate = false
