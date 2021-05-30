@@ -32,7 +32,7 @@ googleAnalytics = "UA-198160109-1"
   avatar = "/me/me.png"
   headerTitle = "The Tech Corner"
   headerTitle1 = "The Personal Side"
-  motto = "This side comes with anything related to Tech, including the best, worst, interesting or the weirdest things I might have done in the field.<br>Use <i class=\"small dark sync icon dream-flip-toggle\"></i> to experience see my personal side!"
+  motto = "This side comes with anything related to Tech, including the best, worst, interesting or the weirdest things I might have done in the field.<br>Use <i class=\"small dark sync icon dream-flip-toggle\"></i> to see the personal side of me!"
   motto1 = "This side is more personal including anything from life aspirations, career or simply life updates!<br>Use <i class=\"small dark sync icon dream-flip-toggle\"></i> to see more about my tech side!"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
