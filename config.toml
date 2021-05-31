@@ -63,7 +63,7 @@ googleAnalytics = "UA-198160109-1"
   favicon = "/favicon.ico"
 
   highlightjs = true
-  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
   highlightjsExtraLanguages = ["clojure", "ocaml"]
   highlightjsTheme = "tomorrow"
   highlightjsThemeDark = "tomorrow-night"
