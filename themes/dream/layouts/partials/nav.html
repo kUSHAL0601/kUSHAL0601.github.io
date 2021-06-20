@@ -9,7 +9,7 @@
     <i class="large link sync icon dream-flip-toggle" title="{{ i18n "flip" }}"></i>
   </div>
   <div class="item">
-    <i class="large link home icon" title="{{ i18n "home" }}" onclick="window.location.href = '{{ .Site.BaseURL }}'"></i>
+    <i class="large link home icon" title="{{ i18n "home" }}" onclick="window.location.href = '{{ .Site.BaseURL }}'+'/'"></i>
   </div>
   {{ if or .Site.Params.backgroundDark .Site.Params.backgroundImageDark }}
   <div class="item">
