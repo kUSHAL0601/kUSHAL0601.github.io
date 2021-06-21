@@ -32,7 +32,7 @@ My initial thought process was to open up a socket connection from SecureTea-Cor
 ### Retry pattern 
  Retry pattern if required cannot be implemented at this level, since it would further block the functioning of other features for the time being.
 ### Excessive socket connections 
- Considering a system with a large number of devices, the number of socket connections would be large. With a limited number of socket connections GUI can open, it would inevitably result in a queue system for socket connections.
+ Considering a system with a large number of devices, the number of socket connections would be large. With a limited number of socket connections GUI can open(_due to fixed number of ports_), it would inevitably result in a queue system for socket connections.
 	Hence I settled to try and implement it at the level of ServerApp. The pros are discussed below.
 
 ## Actual approach - Using ServerApp
@@ -41,7 +41,7 @@ The approach is based on the idea of setting up a communication between the Secu
 ### Excessive socket connections 
   Since the ServerApp might be hosted at a cluster level, it decreases the number of socket connections GUI needs to handle. It might still need an implementation of queue system for socket connection on a very large amount of clusters, but the bound on #devices per GUI instance increases by a large factor.
 ### Scalability
-Also since the number of ServerApp resources can be easily scaled and configured, blocking security features is not an issue anymore. A separate monitoring service could be set up for the ServerApp (like a heartbeat), which would be easy to implement to make sure the ServerApp is healthy.
+Also since the number of ServerApp resources/copies can be easily scaled _horizontally_ and configured, blocking security features is not an issue anymore. A separate monitoring service could be set up for the ServerApp (like a heartbeat), which would be easy to implement to make sure the ServerApp is healthy.
 
 ### Failure & Retry Pattern
 SecureTea-Core being blocked on failure will no longer be an issue and a retry pattern could be easily implemented if required. Also a proxy of some kind is automatically setup here between SecureTea-Core and ServerApp, making the architecture a bit more secure.
