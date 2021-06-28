@@ -1,7 +1,7 @@
 <nav class="ui secondary menu dream-menu dream-socials">
   {{ if .Site.Params.rss }}
   <div class="item">
-    <a href="{{ "index.xml" | relLangURL }}">
+    <a rel="noopener" href="{{ "index.xml" | relLangURL }}">
       <i class="{{ .IconSize }} rss square icon" title="RSS"></i>
     </a>
   </div>
@@ -9,7 +9,7 @@
 
   {{ if .Site.Params.email }}
   <div class="item">
-    <a href="mailto:{{ .Site.Params.email }}">
+    <a rel="noopener" href="mailto:{{ .Site.Params.email }}">
       <i class="{{ .IconSize }} mail icon" title="Email"></i>
     </a>
   </div>
@@ -17,7 +17,7 @@
 
   {{ if .Site.Params.twitter }}
   <div class="item">
-    <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
+    <a rel="noopener" href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
       <i class="{{ .IconSize }} twitter icon" title="Twitter"></i>
     </a>
   </div>
@@ -25,7 +25,7 @@
 
   {{ if .Site.Params.facebook }}
   <div class="item">
-    <a href="https://facebook.com/{{ .Site.Params.facebook }}" target="_blank">
+    <a rel="noopener" href="https://facebook.com/{{ .Site.Params.facebook }}" target="_blank">
       <i class="{{ .IconSize }} facebook icon" title="Facebook"></i>
     </a>
   </div>
@@ -33,7 +33,7 @@
 
   {{ if .Site.Params.instagram }}
   <div class="item">
-    <a href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank">
+    <a rel="noopener" href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank">
       <i class="{{ .IconSize }} instagram icon" title="Instagram"></i>
     </a>
   </div>
@@ -41,7 +41,7 @@
 
   {{ if .Site.Params.mastodon }}
   <div class="item">
-    <a href="{{ .Site.Params.mastodon }}" target="_blank">
+    <a rel="noopener" href="{{ .Site.Params.mastodon }}" target="_blank">
       <i class="{{ .IconSize }} icon-mastodon icon" title="Mastodon"></i>
     </a>
   </div>
@@ -49,7 +49,7 @@
 
   {{ if .Site.Params.linkedin }}
   <div class="item">
-    <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}" target="_blank">
+    <a rel="noopener" href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}" target="_blank">
       <i class="{{ .IconSize }} linkedin icon" title="Linkedin"></i>
     </a>
   </div>
@@ -57,7 +57,7 @@
 
   {{ if .Site.Params.github }}
   <div class="item">
-    <a href="https://github.com/{{ .Site.Params.github }}" target="_blank">
+    <a rel="noopener" href="https://github.com/{{ .Site.Params.github }}" target="_blank">
       <i class="{{ .IconSize }} github icon" title="GitHub"></i>
     </a>
   </div>
@@ -65,7 +65,7 @@
 
   {{ if .Site.Params.stackoverflow }}
   <div class="item">
-    <a href="https://www.stackoverflow.com/users/{{ .Site.Params.stackoverflow }}" target="_blank">
+    <a rel="noopener" href="https://www.stackoverflow.com/users/{{ .Site.Params.stackoverflow }}" target="_blank">
       <i class="{{ .IconSize }} stack overflow icon" title="StackOverflow"></i>
     </a>
   </div>
@@ -73,7 +73,7 @@
 
   {{ if .Site.Params.codepen }}
   <div class="item">
-    <a href="https://codepen.io/{{ .Site.Params.codepen }}" target="_blank">
+    <a rel="noopener" href="https://codepen.io/{{ .Site.Params.codepen }}" target="_blank">
       <i class="{{ .IconSize }} codepen icon" title="Codepen"></i>
     </a>
   </div>
