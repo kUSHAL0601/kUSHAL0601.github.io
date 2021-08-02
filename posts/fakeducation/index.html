@@ -1,0 +1,259 @@
+<!doctype html><html lang>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>FAKEducation - A Deep Fake approach to Education | MajAK</title>
+<link href=/favicon.ico rel="shortcut icon" type=image/x-icon>
+<meta name=author content="MajAK">
+<meta name=description content="My Journey on how I built a product using Deep Fakes which ended up as a runner up at SigmaHacks3
+">
+<meta name=generator content="Hugo 0.86.1">
+<link rel=canonical href=https://kushal0601.github.io/posts/fakeducation/>
+<meta property="og:title" content="FAKEducation -  A Deep Fake approach to Education">
+<meta property="og:description" content="My Journey on how I built a product using Deep Fakes which ended up as a runner up at SigmaHacks3">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://kushal0601.github.io/posts/fakeducation/"><meta property="og:image" content="https://kushal0601.github.io/me/background.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-08-02T11:15:07+05:30">
+<meta property="article:modified_time" content="2021-08-02T11:15:07+05:30">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://kushal0601.github.io/me/background.jpg">
+<meta name=twitter:title content="FAKEducation -  A Deep Fake approach to Education">
+<meta name=twitter:description content="My Journey on how I built a product using Deep Fakes which ended up as a runner up at SigmaHacks3">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css>
+<link rel=stylesheet href=/css/icomoon.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css>
+<link rel=stylesheet href=/css/site.css>
+<style>.ui.header a:not(.ui.button):hover{text-decoration:underline}a:not(.ui.button){color:#2e8b57!important}.inverted a:not(.ui.button){color:#8fbc8f!important}body.default{background-color:#fff;background-image:url(/me/background.jpg)}body.dark{background-color:#333;background-image:url(/me/background.jpg)}</style>
+<link rel=stylesheet data-highlight href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/tomorrow.min.css>
+<link rel=stylesheet href=/css/custom.css>
+</head>
+<body class=default>
+<nav class="ui secondary menu dream-menu dream-nav">
+<div class=item>
+<i class="large link sync icon dream-flip-toggle" title="Flip it!"></i>
+</div>
+<div class=item>
+<i class="large link home icon" title=Home onclick="window.location.href='https://kushal0601.github.io//'"></i>
+</div>
+<div class=item>
+<i class="large link icon theme-switch" onclick=themeSwitch()></i>
+</div>
+<div class=item>
+<i class="large link search icon" onclick=toggleSearch()></i>
+</div>
+</nav>
+<div class=flip-container>
+<div class=flipper>
+<section class=front>
+<div class=dream-max-width>
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
+<aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+<div class="ui segment toc">
+<nav id=TableOfContents>
+<ul>
+<li><a href=#the-context>The Context</a></li>
+<li><a href=#the-ideation-phase>The Ideation phase</a></li>
+<li><a href=#the-building-phase>The Building phase</a></li>
+<li><a href=#the-results>The Results</a></li>
+<li><a href=#my-takeaway>My Takeaway</a></li>
+<li><a href=#scope-of-improvement>Scope of Improvement</a></li>
+<li><a href=#credits-where-credits-are-due>Credits where credits are due</a></li>
+<li><a href=#some-links>Some links</a></li>
+</ul>
+</nav>
+</div>
+</aside>
+<div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id=dream-save-post-as-img>
+<section class="ui top attached segment">
+<header>
+<h1 class="ui large header">FAKEducation - A Deep Fake approach to Education<span class="sub header">
+<span class=left>
+@
+MajAK
+|
+Monday, Aug 2, 2021
+| 7 minutes read
+| Update at
+Monday, Aug 2, 2021
+</span>
+<span class=dream-share>
+<a href=# class=save-as-image title="Save as image" onclick=savePostAsImg()>
+<i class="save icon"></i>
+</a>
+<a href="https://twitter.com/intent/tweet?text=FAKEducation%20-%20%20A%20Deep%20Fake%20approach%20to%20Education&url=https%3a%2f%2fkushal0601.github.io%2fposts%2ffakeducation%2f" title=Twitter>
+<i class="twitter icon"></i>
+</a>
+<a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkushal0601.github.io%2fposts%2ffakeducation%2f" title=Facebook>
+<i class="facebook icon"></i>
+</a>
+</span>
+</span>
+</h1>
+</header>
+<article class=main>
+<img class=cover src=/img/original.jpg>
+<p><strong>My Journey on how I built a product using Deep Fakes which ended up as a runner up at SigmaHacks3</strong></p>
+<h2 id=the-context>The Context</h2>
+<p>Bored of the normal job like every other newly joined SDE, me and two other fellow human friends decided that let us give a hackathon. We came across <strong>SigmaHacks 3</strong>. It was a one day hackathon and seemed quite interesting. <em>The Education Path</em> tbh seemed exciting to me quite a lot. But like every friend ever, they backed out at the last moment :D Still since for the sole reason I had nothing else to do and was a tad bit excited I decided let us give it. It was a short one day hackathon so I was sure that my excitement would not fade away that soon!</p>
+<h2 id=the-ideation-phase>The Ideation phase</h2>
+<p>The <strong>initial idea</strong> was to work in the domain of making sure students attended the online classes by means of some interesting activities. Asked a few of my friends around on firstly how to detect that one is actually attending the lecture. For the one’s where the video camera was supposed to be kept on all the time, it was easy, use <strong>temporal FFTs</strong> to check for repeating patterns. The hard part was to come up with something where it was not possible for students to keep their web cameras on. I was thinking something in line with random attendance for each student or <strong>random questions</strong> based on the field, but with my friends dropping out, it seemed a bit of a stretch to do it all by myself.</p>
+<p>With so much social media presence and students getting used to it, it is sometimes hard for students to get through <strong>boring</strong> lengthy texts or lecture notes. Also the need for <strong>entertaining teaching methods</strong> for toddlers and younger kids has been on a rise. In some rural areas, online lectures are not possible which in the end results in students losing a lot. So I thought, why not use <strong>Deep Fakes</strong> for some good. For those who don’t know what deep fakes are, <strong>in layman terms</strong> they are fake videos created based on an audio sample and anything ranging from an image to a video. With the Hackathon not being according to my timezone, I decided to proceed with this and got some sleep at night.</p>
+<h2 id=the-building-phase>The Building phase</h2>
+<p>It was <strong>Sunday morning</strong> and like every other Sunday Morning in my life, I woke up Late. My parents were travelling to Ahmedabad to meet Masi(Maternal Aunt) and I had heavy heartedly given up on going to attend this hackathon, simply because I needed some excitement back in life. So lazily waking up, the game plan was clear: There is <strong>no time</strong> to make and train my own Deep Fake, so go through all available online Deep Fake generators and choose a good lightweight one. Build upon it and then think on what to do next.</p>
+<p>After looking at a lot of codes available online, making them work on my system, trying and testing with my own video and audio, I came across <a href=https://arxiv.org/abs/2008.10010><strong>one</strong></a> from my Institute itself. It was <strong>kind of state of the art</strong> work and seemed pretty good. But there was a catch, it was heavy. I could not make it run on my system locally. After successfully letting it <strong>crash</strong> my PC 2-3 times, I gave up. That is when I decided I will host it on colab. But there was something I needed to figure out, I was planning to make a full fledged UI to make it easy to use. How would I <strong>trigger</strong> my colab code from my Flask app? The solution was simple, I won’t :D I would rather <strong>host</strong> my Flask App in <strong>colab</strong>. So all set to go and some rigorous coding later, I was ready with making the Deep Fake work.</p>
+<p>This is when I decided that since text is the most boring entity out there, I also need to use <strong>TTS</strong> to make text interesting. After experimenting a bit I decided not to look for that great of a TTS and simply go with <strong>Google TTS</strong> for now. Meanwhile, I discussed this idea with some of my friends and took their feedback. Some liked it, some were like <em>Meh</em>! Anyways I was too deep into it to overthink. With the base system in place, it was time to experiment. I needed some <strong>good examples</strong> to show in the presentation and hence I started searching.</p>
+<p><strong>A sample here combines fortnite character with an excerpt from audio book about earthquakes:</strong></p>
+<center>
+<iframe width=440 height=260 src=https://www.youtube.com/embed/Bkw3E6AaysA title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<p>But I was bored, so in the middle of all the fuss, I <strong>went out</strong> with my friends, had a bit of fun, talked to them, brought shakes back home and sat with them and <em>holy cow</em>, it was 10 PM already. I had loads of work left to do. After they went back home because of the lockdown, Like every other <strong>lazy kid’s inner voice</strong> I thought : <em>Kushal see you have to complete it and you need to pull off an all nighter, better watch a movie and then start :facepalm</em>. Call it dumb but it probably helped with keeping my mind <strong>fresh</strong>.</p>
+<p>After <strong>experimenting</strong> a lot from audio lectures to extracting audio from youtube videos and finding inspiration in animated characters of Fortnite, I found quite some good examples. Tbh I even took my friend’s profile picture from WhatsApp for one of the experiments just for fun :P It was now time to make the <strong>UI component</strong> and link it. <strong>Flask</strong> with <strong>ngrok</strong> was a viable option and I was ready with it. It sounds simple but there was a lot of UI theme selection, building, making appropriate examples from Deep Fakes. It was around <em>5 AM</em> and I was done. All I had to do was record a video and submit. With 3-4 takes, making a submission on Devpost it was 6AM and I was done. I was literally done, didn’t care anymore about the hackathon, <strong>overthinking</strong> that probably should have gone to Ahmedabad, all I saw was my bed :D</p>
+<p>The final presentation looked something like this <em>(watch in 0.75x ples)</em>:</p>
+<center>
+<iframe width=440 height=260 src=https://www.youtube.com/embed/q38nD-nSLW4 title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<h2 id=the-results>The Results</h2>
+<p>Tbh I don’t even remember what time the <strong>results</strong> were being declared. It was like <em>12:30 AM</em> I think and there was a <strong>live stream</strong> by the organizers to declare the results. I was <strong>not sure</strong> it would have been the best idea of the lot, since I was working alone on it, but <strong>they said FAKEducation</strong> and my heart melted. It was the <strong><em>Eureka Eureka</em></strong> moment, except there was no one around. So I remember <em>texting my junior</em> since she was the only one awake and she was probably confused why I was so excited xD. Super excited, I took a photo that I won and <strong>sent</strong> it to my <strong>friends</strong>. I was excited and proud and happy. It was a <strong>good detour</strong> from my daily software life and maybe was a day back to my college days… Won <em>50$</em>, gave it to my cousins because Paypal in India sucks. All in all it was the most <strong>fun experience</strong> I had in a long long while!</p>
+<h2 id=my-takeaway>My Takeaway</h2>
+<p>I learnt that it is <strong>okay</strong> to <strong>do</strong> whatever you want <strong>by yourself</strong>, because it will make you a <strong>proud</strong> human. Also having such <strong>supportive friends</strong> around always helps and it sucks when they sleep early. And the most important one : <strong>Hackathons are alwayssss fun!</strong></p>
+<h2 id=scope-of-improvement>Scope of Improvement</h2>
+<p>There is a lot of scope for improvement. With <strong>new</strong> and improved <strong>deep fake methods</strong> coming in, one with <strong>gestures</strong> can be used to make sure it seems more real. TTS can be improved simply by using a <strong>paid service</strong> which is near <strong>human voice</strong>. Also <strong>watermark</strong> should be added to prevent misuse.</p>
+<h2 id=credits-where-credits-are-due>Credits where credits are due</h2>
+<code>
+Ravi Sawlani and Mishal Shah for cancelling on me to take part -.-<br>
+Mishal Shah and Harnish Rajput for listening to my idea<br>
+Ravi Sawlani, Mishal Shah and Harnish Rajput for going out that night (obv joined by above 2 fellow humans)<br>
+</code>
+<br>
+<p><strong>P.S Call it a coincidence, I just took my vaccine the day before. It seems vaccine has something to do with boosting my brain xD</strong></p>
+<h2 id=some-links>Some links</h2>
+<ul>
+<li><a href=https://devpost.com/software/fakeducation>Devpost</a></li>
+<li><a href="https://drive.google.com/drive/folders/1pArTv2H5-RTsscaRTEdN8Qy3bY189Jzx?usp=sharing">Samples</a></li>
+<li><a href=https://github.com/kUSHAL0601/FAKEducation>Code</a></li>
+<li><a href="https://colab.research.google.com/drive/1j8nrSvUmMNWnt--ArEBSWf74twX5PGGp?usp=sharing">Colab</a></li>
+</ul>
+</article>
+</section>
+<article class="ui segment utterances-comments" data-html2canvas-ignore>
+<script src=https://utteranc.es/client.js repo=kUSHAL0601/kUSHAL0601.github.io issue-term=og:title theme=github-light crossorigin=anonymous async></script>
+</article>
+</div>
+</div>
+<footer class="ui basic center aligned segment" style=background-color:transparent>
+<p>© 2021 MajAK</p>
+</footer>
+</div>
+</section>
+<section class=back>
+<div class=dream-max-width>
+<header class="ui basic very padded segment dream-header">
+<div class="ui small image">
+<img src=/me/me.png alt=avatar>
+</div>
+<div class=content>
+<h1 class="ui large header">The Personal Side<span class="sub header">This side is more personal including anything from life aspirations, career or simply life updates!<br>Use <i class="small dark sync icon dream-flip-toggle"></i> to see more about my tech side!</span>
+</h1>
+<br>
+<span class="ui header" style=color:rgba(0,0,0,.6)>Feel free to reach out to me or DM me wherever you want!</span>
+</div>
+</header>
+<div class="ui relaxed grid dream-grid dream-back">
+<div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+<article class="ui segment markdown-body">
+<div class="ui medium header">Who is Kushal?</div>
+<p>Kushal is a tech enthusiast, who is a graduate from International Institute of Information technology, Hyderabad! He hails from this small town of Vadodara. He thinks he is good at Mathemetics but is really bad. Apart from nerdy stuff, he loves basketball (is a big <strong>Kyrie</strong> fan), carelessly likes to spend his money on shoes and has developed a taste for watching competitive CSGO (<strong>NiP</strong> fan in the house). He gets as childish as one can get when it comes to <strong>NERF</strong> and the randomest toys ever, but is mature when it comes to life Ig :)
+<br></p>
+<p><strong>P.S. He likes using PostScripts everywhere!</strong></p>
+</article>
+</div>
+<div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+<article class="ui segment markdown-body">
+<div class="ui medium header">What the hell is MajAK?</div>
+<p>MajAK is something that Kushal has given to himself. His Name is actually Kushal A Majmundar, hence dumbly enough MajAK. <em>MajAK</em> in his mother tounge <em>Gujarati</em> means <strong><em>Kidding</em></strong> in some sorts, but it is hard to understand Kushal&rsquo;s sense of humour. It is <strong>Broken</strong>. But now since MajAK is stuck to his brain, he tends to carry it everywhere, from acads, to corp, to accounts and in gaming too! Kushal gets funny only if your sense of humour is broken too :|
+<br></p>
+<p><strong>P.S. He loves emoticons!</strong></p>
+</article>
+</div>
+<div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+<article class="ui segment markdown-body">
+<div class="ui medium header">What does Kushal do for a living?</div>
+<p>Kushal does a 9-5 job like any other Software Engineer. He works for a so called <em>&ldquo;tech giant&rdquo;</em>. But he keeps on working on a lot of new stuff over the weekends, be it open source or research or randomest apps ever! He can get quite lazy too, doesn&rsquo;t miss out on good food on weekends, but def. tries to explore as much as the field has to offer.
+<br></p>
+<p><strong>P.S. He is always open to collabarations if it seems interesting to him!</strong></p>
+</article>
+</div>
+<div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+<article class="ui segment">
+<div class="ui medium header">Social Links</div>
+<nav class="ui secondary menu dream-menu dream-socials">
+<div class=item>
+<a rel=noopener href=mailto:majmundarkushal9@gmail.com>
+<i class="large mail icon" title=Email></i>
+</a>
+</div>
+<div class=item>
+<a rel=noopener href=https://twitter.com/kUSHAL0601 target=_blank>
+<i class="large twitter icon" title=Twitter></i>
+</a>
+</div>
+<div class=item>
+<a rel=noopener href=https://facebook.com/kUSHAL0601 target=_blank>
+<i class="large facebook icon" title=Facebook></i>
+</a>
+</div>
+<div class=item>
+<a rel=noopener href=https://instagram.com/iammajak target=_blank>
+<i class="large instagram icon" title=Instagram></i>
+</a>
+</div>
+<div class=item>
+<a rel=noopener href=https://www.linkedin.com/in/majak06 target=_blank>
+<i class="large linkedin icon" title=Linkedin></i>
+</a>
+</div>
+<div class=item>
+<a rel=noopener href=https://github.com/kUSHAL0601 target=_blank>
+<i class="large github icon" title=GitHub></i>
+</a>
+</div>
+</nav>
+</article>
+</div>
+<div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js></script>
+<div class="ui segment" id=dream-search>
+<div class="ui search">
+<div class="ui transparent input">
+<input class=prompt type=text placeholder=Search>
+</div>
+<div class=results></div>
+</div>
+</div>
+<script>$(document).ready(function(){$.getJSON('https://kushal0601.github.io//index.json',function(a){$('.ui.search').search({source:a,searchFields:['title'],showNoResults:!1})})})</script>
+<script src=/js/search.js></script>
+<script>window.background="#fff",window.defaultDark=null,window.backgroundDark="#333",window.backgroundImageDark="/me/background.jpg",window.darkNav=null,window.maxTags=null,window.hasTwitterEmbed=null,window.fixedNav=!0,window.hasTwitterEmbed&&(window.twttr=function(c,d,e){var b,f=c.getElementsByTagName(d)[0],a=window.twttr||{};return c.getElementById(e)?a:(b=c.createElement(d),b.id=e,b.src='https://platform.twitter.com/widgets.js',f.parentNode.insertBefore(b,f),a._e=[],a.ready=function(b){a._e.push(b)},a)}(document,'script','twitter-wjs'))</script>
+<script src=https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js></script>
+<script src=/js/header.js></script>
+<script src=/js/main.js></script>
+<script src=/js/theme.js></script>
+<script src=/js/scrollToTop.js></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/clojure.min.js></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js></script>
+<script>hljs.highlightAll(),setHighlightTheme();function setHighlightTheme(){var a=localStore.getItem('hugo-theme-dream-is-dark'),b,c,d;a=a?a:window.defaultDark?'y':a,b="tomorrow",c="tomorrow-night",d=a==='y'?c:b,$('link[data-highlight]').attr('href','https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/'+d+'.min.css'),$('pre').css('background',a==='y'?'#333':'')}</script>
+<script src=https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js></script>
+<script src=/js/post.js defer></script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-198160109-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</body>
+</html>
