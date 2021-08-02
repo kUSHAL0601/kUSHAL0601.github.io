@@ -37,7 +37,7 @@ This is when I decided that since text is the most boring entity out there, I al
 
 __A sample here combines fortnite character with an excerpt from audio book about earthquakes:__
 <center>
-<iframe width="440" height="260" src="https://www.youtube.com/embed/Bkw3E6AaysA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="60%" height="260" src="https://www.youtube.com/embed/Bkw3E6AaysA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 But I was bored, so in the middle of all the fuss, I __went out__ with my friends, had a bit of fun, talked to them, brought shakes back home and sat with them and _holy cow_, it was 10 PM already. I had loads of work left to do. After they went back home because of the lockdown, Like every other __lazy kid’s inner voice__ I thought : _Kushal see you have to complete it and you need to pull off an all nighter, better watch a movie and then start :facepalm_. Call it dumb but it probably helped with keeping my mind __fresh__.
@@ -46,7 +46,7 @@ After __experimenting__ a lot from audio lectures to extracting audio from youtu
 
 The final presentation looked something like this _(watch in 0.75x ples)_:
 <center>
-<iframe width="440" height="260" src="https://www.youtube.com/embed/q38nD-nSLW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="60%" height="260" src="https://www.youtube.com/embed/q38nD-nSLW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ## The Results
