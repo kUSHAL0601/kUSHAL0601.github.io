@@ -8,7 +8,7 @@
 <meta name=author content="MajAK">
 <meta name=description content="How I created GUI notification service for OWASP SecureTea using sockets, but with a twist!
 ">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.89.3">
 <link rel=canonical href=https://kushal0601.github.io/posts/socket-conn/>
 <meta property="og:title" content="Connecting Components - The socket way">
 <meta property="og:description" content="How I created GUI notification service for OWASP SecureTea using sockets, but with a twist!">
@@ -136,7 +136,7 @@ Hence I settled to try and implement it at the level of ServerApp. The pros are 
 <p>You can find some important excerpts from the code here. Refer to this <a href=https://github.com/OWASP/SecureTea-Project/commit/941d9f65e30b7f3124ef8172fccf043b27417fa3>commit</a> to get an idea in detail. Here is an overview of the important components :</p>
 <h3 id=serverapp>ServerApp</h3>
 <p><em>app.py</em></p>
-<pre><code>from flask_cors import CORS
+<pre tabindex=0><code>from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from functools import wraps
 from flask_socketio import SocketIO, emit
@@ -156,12 +156,12 @@ def notifs():
         socketio.emit('newmessage', {'message': request.args.get(&quot;msg&quot;)})
     return 'Notif sent'
 </code></pre><p><em>run.py</em></p>
-<pre><code>from app import app
+<pre tabindex=0><code>from app import app
 app.run()
 from app import socketio, app
 socketio.run(app)
 </code></pre><h3 id=securetea-core>SecureTea-Core</h3>
-<pre><code>import requests as req
+<pre tabindex=0><code>import requests as req
 import time
 
 def printinfo(self, message):
@@ -183,7 +183,7 @@ def printerror(self, message):
     resp = req.get(SERVER_ADDR+&quot;/notifs&quot;,params=param)
 ...
 </code></pre><h3 id=gui-app>GUI App</h3>
-<pre><code>import * as toastr from 'toastr';
+<pre tabindex=0><code>import * as toastr from 'toastr';
 import * as io from 'socket.io-client';
 
 socket: any;
