@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education on MajAK</title>
+    <link>https://kushal0601.github.io/tags/education/</link>
+    <description>Recent content in education on MajAK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 02 Aug 2021 11:15:07 +0530</lastBuildDate><atom:link href="https://kushal0601.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAKEducation -  A Deep Fake approach to Education</title>
+      <link>https://kushal0601.github.io/posts/fakeducation/</link>
+      <pubDate>Mon, 02 Aug 2021 11:15:07 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/posts/fakeducation/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My Journey on how I built a product using Deep Fakes which ended up as a runner up at SigmaHacks3&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on </description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags on MajAK</title>
+    <link>https://kushal0601.github.io/tags/</link>
+    <description>Recent content in Tags on MajAK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Aug 2021 09:42:03 +0530</lastBuildDate><atom:link href="https://kushal0601.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>anniversary</title>
+      <link>https://kushal0601.github.io/tags/anniversary/</link>
+      <pubDate>Mon, 30 Aug 2021 09:42:03 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/anniversary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>https://kushal0601.github.io/tags/microsoft/</link>
+      <pubDate>Mon, 30 Aug 2021 09:42:03 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deepfake</title>
+      <link>https://kushal0601.github.io/tags/deepfake/</link>
+      <pubDate>Mon, 02 Aug 2021 11:15:07 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/deepfake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://kushal0601.github.io/tags/education/</link>
+      <pubDate>Mon, 02 Aug 2021 11:15:07 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backend</title>
+      <link>https://kushal0601.github.io/tags/backend/</link>
+      <pubDate>Mon, 21 Jun 2021 01:41:15 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notification</title>
+      <link>https://kushal0601.github.io/tags/notification/</link>
+      <pubDate>Mon, 21 Jun 2021 01:41:15 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/notification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sockets</title>
+      <link>https://kushal0601.github.io/tags/sockets/</link>
+      <pubDate>Mon, 21 Jun 2021 01:41:15 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/sockets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>https://kushal0601.github.io/tags/covid19/</link>
+      <pubDate>Sun, 30 May 2021 20:10:42 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>failure</title>
+      <link>https://kushal0601.github.io/tags/failure/</link>
+      <pubDate>Sun, 30 May 2021 20:10:42 +0530</pubDate>
+      
+      <guid>https://kushal0601.github.io/tags/failure/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
